@@ -1,0 +1,6 @@
+framework module Pods_Badminton_ScoreCard {
+  umbrella header "Pods-Badminton_ScoreCard-umbrella.h"
+
+  export *
+  module * { export * }
+}
