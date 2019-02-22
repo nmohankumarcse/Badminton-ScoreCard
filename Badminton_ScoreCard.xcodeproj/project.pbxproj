@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30793A9F36B549505BAB9DFE /* Pods_Badminton_ScoreCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F392133394E6BCE94CAB076 /* Pods_Badminton_ScoreCard.framework */; };
+		5272D8A82148ED840029309E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272D8A72148ED840029309E /* AppDelegate.swift */; };
+		5272D8AA2148ED840029309E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272D8A92148ED840029309E /* ViewController.swift */; };
+		5272D8AD2148ED840029309E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5272D8AB2148ED840029309E /* Main.storyboard */; };
+		5272D8AF2148ED840029309E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5272D8AE2148ED840029309E /* Assets.xcassets */; };
+		5272D8B22148ED840029309E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5272D8B02148ED840029309E /* LaunchScreen.storyboard */; };
+		5272D8BA214B872D0029309E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5272D8B9214B872D0029309E /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		128ED17B9585550B2A5F12B7 /* Pods-Badminton_ScoreCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Badminton_ScoreCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Badminton_ScoreCard/Pods-Badminton_ScoreCard.debug.xcconfig"; sourceTree = "<group>"; };
+		35748553FBE8A05C0B271F17 /* Pods-Badminton_ScoreCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Badminton_ScoreCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Badminton_ScoreCard/Pods-Badminton_ScoreCard.release.xcconfig"; sourceTree = "<group>"; };
+		3F392133394E6BCE94CAB076 /* Pods_Badminton_ScoreCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Badminton_ScoreCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5272D8A42148ED840029309E /* Badminton_ScoreCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Badminton_ScoreCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5272D8A72148ED840029309E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5272D8A92148ED840029309E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5272D8AC2148ED840029309E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5272D8AE2148ED840029309E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5272D8B12148ED840029309E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5272D8B32148ED840029309E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5272D8B9214B872D0029309E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5272D8A12148ED840029309E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30793A9F36B549505BAB9DFE /* Pods_Badminton_ScoreCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F40BE62A832627EA40D4B27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				128ED17B9585550B2A5F12B7 /* Pods-Badminton_ScoreCard.debug.xcconfig */,
+				35748553FBE8A05C0B271F17 /* Pods-Badminton_ScoreCard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5272D89B2148ED840029309E = {
+			isa = PBXGroup;
+			children = (
+				5272D8A62148ED840029309E /* Badminton_ScoreCard */,
+				5272D8A52148ED840029309E /* Products */,
+				0F40BE62A832627EA40D4B27 /* Pods */,
+				D8EC04FD491E4E40A8D50462 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5272D8A52148ED840029309E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5272D8A42148ED840029309E /* Badminton_ScoreCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5272D8A62148ED840029309E /* Badminton_ScoreCard */ = {
+			isa = PBXGroup;
+			children = (
+				5272D8B9214B872D0029309E /* GoogleService-Info.plist */,
+				5272D8A72148ED840029309E /* AppDelegate.swift */,
+				5272D8A92148ED840029309E /* ViewController.swift */,
+				5272D8AB2148ED840029309E /* Main.storyboard */,
+				5272D8AE2148ED840029309E /* Assets.xcassets */,
+				5272D8B02148ED840029309E /* LaunchScreen.storyboard */,
+				5272D8B32148ED840029309E /* Info.plist */,
+			);
+			path = Badminton_ScoreCard;
+			sourceTree = "<group>";
+		};
+		D8EC04FD491E4E40A8D50462 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F392133394E6BCE94CAB076 /* Pods_Badminton_ScoreCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5272D8A32148ED840029309E /* Badminton_ScoreCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5272D8B62148ED840029309E /* Build configuration list for PBXNativeTarget "Badminton_ScoreCard" */;
+			buildPhases = (
+				3BF2D760F2740D70A3B12001 /* [CP] Check Pods Manifest.lock */,
+				5272D8A02148ED840029309E /* Sources */,
+				5272D8A12148ED840029309E /* Frameworks */,
+				5272D8A22148ED840029309E /* Resources */,
+				F5253D041E9666CC84CA6F0B /* [CP] Embed Pods Frameworks */,
+				21C6D15FD39C0C08668A4294 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Badminton_ScoreCard;
+			productName = Badminton_ScoreCard;
+			productReference = 5272D8A42148ED840029309E /* Badminton_ScoreCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5272D89C2148ED840029309E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Mohankumar;
+				TargetAttributes = {
+					5272D8A32148ED840029309E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5272D89F2148ED840029309E /* Build configuration list for PBXProject "Badminton_ScoreCard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5272D89B2148ED840029309E;
+			productRefGroup = 5272D8A52148ED840029309E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5272D8A32148ED840029309E /* Badminton_ScoreCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5272D8A22148ED840029309E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5272D8B22148ED840029309E /* LaunchScreen.storyboard in Resources */,
+				5272D8BA214B872D0029309E /* GoogleService-Info.plist in Resources */,
+				5272D8AF2148ED840029309E /* Assets.xcassets in Resources */,
+				5272D8AD2148ED840029309E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21C6D15FD39C0C08668A4294 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Badminton_ScoreCard/Pods-Badminton_ScoreCard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BF2D760F2740D70A3B12001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Badminton_ScoreCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5253D041E9666CC84CA6F0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Badminton_ScoreCard/Pods-Badminton_ScoreCard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Badminton_ScoreCard/Pods-Badminton_ScoreCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5272D8A02148ED840029309E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5272D8AA2148ED840029309E /* ViewController.swift in Sources */,
+				5272D8A82148ED840029309E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5272D8AB2148ED840029309E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5272D8AC2148ED840029309E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5272D8B02148ED840029309E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5272D8B12148ED840029309E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5272D8B42148ED840029309E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5272D8B52148ED840029309E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5272D8B72148ED840029309E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128ED17B9585550B2A5F12B7 /* Pods-Badminton_ScoreCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FPG8DNK7X;
+				INFOPLIST_FILE = Badminton_ScoreCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mohankumar.Badminton-ScoreCard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5272D8B82148ED840029309E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35748553FBE8A05C0B271F17 /* Pods-Badminton_ScoreCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FPG8DNK7X;
+				INFOPLIST_FILE = Badminton_ScoreCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mohankumar.Badminton-ScoreCard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5272D89F2148ED840029309E /* Build configuration list for PBXProject "Badminton_ScoreCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5272D8B42148ED840029309E /* Debug */,
+				5272D8B52148ED840029309E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5272D8B62148ED840029309E /* Build configuration list for PBXNativeTarget "Badminton_ScoreCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5272D8B72148ED840029309E /* Debug */,
+				5272D8B82148ED840029309E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5272D89C2148ED840029309E /* Project object */;
+}
