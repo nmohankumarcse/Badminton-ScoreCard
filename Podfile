@@ -7,6 +7,6 @@ target 'Badminton_ScoreCard' do
 
   # Pods for Badminton_ScoreCard
 
-pod 'Firebase/Core'
+#pod 'Firebase/Core'
 
 end
